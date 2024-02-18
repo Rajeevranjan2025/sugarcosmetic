@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo img{
+    height: 40px;
+    margin-right: 60px;
+}
+.header{
+    height: 100px;
+    background-color: rgb(19, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+
+.search input{
+  height: 40px;
+  width: 700px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: rgb(228, 222, 222);
+}
+.btnsearch{
+    height: 40px;
+    width: 90px;
+    
+    margin-right: 50px;
+    border-left: none;
+    background-color: white;
+    border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+    
+    
+}
+.btnsearch button{
+    height: 40px;
+    width: 90px;
+    border: none;
+    margin-right: 50px;
+    border-left: none;
+    background-color: white;
+    border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+    
+}
+
+.btnsearch img{
+    height: 20px;
+    width: 20px;
+    transform: translateX(-5px);
+    transform: translateY(3px);
+}
+   
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart img{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border-radius: 40%;
+
+}
+.reg-login{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-right: 50px;
+    color: white;
+}
+.reg-login img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    background-color: rgb(64, 60, 60);
+    position: relative;
+    top: -50px;
+    padding-top: 50px;
+   
+}
+.section1 p,a{
+    color: white;
+    text-decoration: none;
+}
+
+.sticky1{
+    position: sticky;
+    top: 10;
+}
+.section2{
+    height:350px;
+    position: relative;
+    top: -50px;
+    
+}
+.section2 img{
+    height: 340px;
+}
+.section3{
+    height: 500px;
+    background-color: rgb(205, 203, 200);
+    
+}
+.section3>p{
+    text-align: center;
+    font-size: 30px ;
+    color: white;
+   
+}
+.s1{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+.s1 img{
+    height: 150px;
+    width: 250px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.s1 p{
+    text-align: center;
+}
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.select img{
+    height: 40px;
+    width: 40px;
+}
+.select button{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.sellers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.section4{
+    height: 450px;
+    background-color: white;
+}
+.section4>p{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.poster{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.poster img{
+    height: 320px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form{
+    display: flex;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    border: 1px solid grey;
+    float: left;
+    width: 600px;
+    
+    background: #dcd9d9;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 150px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid rgb(197, 193, 193);
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .example input{
+    color: white;
+  }
